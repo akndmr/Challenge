@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MobilionChallenge</string>
+    <string name="search_products_hint">Ürün ara...</string>
+
+
+    <string name="all_products">TÜMÜ &gt;</string>
+    <string name="go_to_store">Vitrine Git</string>
+    <string name="follow">Takip Et</string>
+    <string name="editors_choice_stores">Editör Seçimi Vitrinler</string>
+    <string name="newest_stores">En Yeni Vitrinler</string>
+    <string name="collections">Koleksiyonlar</string>
+    <string name="newest_items">En Yeni Ürünler</string>
+    <string name="say_product_name">Ürün adını söyleyiniz</string>
+    <string name="no_products_matched">Eşleşen ürün bulunamadı!</string>
+    <string name="search_products">Ürün ara...</string>
+
+    <!-- Content description -->
+    <string name="cd_featured_item_image">Featured item image</string>
+    <string name="cd_category_image">Category image</string>
+
+    <!-- About Developer -->
+    <string name="developer_name" translatable="false">Akın DEMİR</string>
+    <string name="developer_summary" translatable="true">Computer Engineer \n Android Developer Nanodegree Graduate \n Android Basics Mentor at Udacity</string>
+    <string name="developer_website_url" translatable="false">https://akndmr.github.io/</string>
+    <string name="developer_linkedin_url" translatable="false">https://www.linkedin.com/in/akndmr</string>
+    <string name="developer_github_url" translatable="false">https://github.com/akndmr</string>
+    <string name="developer_google_play_url" translatable="false">https://goo.gl/8UaKdC</string>
+    <string name="cd_editors_choice_store_background_image">Editor\'s choice store background image</string>
+    <string name="voice_search">Sesli ara</string>
+
+
+</resources>

@@ -352,9 +352,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         activateViewPagerIndicator(0);
     }
 
-
     private void startActivityYo(){
-        Toast.makeText(MainActivity.this, "BLAHLALHAL", Toast.LENGTH_SHORT).show();
         Intent searchIntent = new Intent(MainActivity.this, SearchResultsActivity.class);
         searchIntent.putExtra(SearchResultsActivity.IS_VOICE_SEARCH, true);
         searchIntent.putParcelableArrayListExtra(SearchResultsActivity.SEARCH_DATA_LIST, mProductList);

@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">MobillionChallenge</string>
+    <string name="app_name">Mobillium Challenge</string>
+
     <string name="search_products_hint">Ürün ara...</string>
-
-
     <string name="all_products">TÜMÜ &gt;</string>
     <string name="go_to_store">Vitrine Git</string>
     <string name="follow">Takip Et</string>

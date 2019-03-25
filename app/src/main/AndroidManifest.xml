@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="io.github.akndmr.mobillionchallenge">
+    package="io.github.akndmr.mobilliumchallenge">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,11 +16,11 @@
         tools:ignore="GoogleAppIndexingWarning">
 
 
-        <activity android:name=".ui.TestActivity">
+        <activity android:name="io.github.akndmr.mobilliumchallenge.ui.TestActivity">
 
         </activity>
         <activity
-            android:name=".ui.SplashActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.SplashActivity"
             android:theme="@style/AppTheme.Splash"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -31,29 +31,29 @@
         </activity>
 
         <activity
-            android:name=".ui.NewShopsActivity"
-            android:parentActivityName=".ui.MainActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.NewShopsActivity"
+            android:parentActivityName="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.EditorShopsActivity"
-            android:parentActivityName=".ui.MainActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.EditorShopsActivity"
+            android:parentActivityName="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.CollectionsActivity"
-            android:parentActivityName=".ui.MainActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.CollectionsActivity"
+            android:parentActivityName="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.ProductsActivity"
-            android:parentActivityName=".ui.MainActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.ProductsActivity"
+            android:parentActivityName="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.SearchResultsActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.SearchResultsActivity"
             android:launchMode="singleTop"
-            android:parentActivityName=".ui.MainActivity"
+            android:parentActivityName="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -64,7 +64,7 @@
         </activity>
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="io.github.akndmr.mobilliumchallenge.ui.MainActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
             <meta-data
